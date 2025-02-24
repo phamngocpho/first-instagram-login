@@ -30,7 +30,6 @@ class MainActivity : ComponentActivity() {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun InstagramLoginScreen() {
-    //test
 
     var username by remember { mutableStateOf("") }
     var password by remember { mutableStateOf("") }
@@ -80,7 +79,6 @@ fun InstagramLoginScreen() {
                 shape = RoundedCornerShape(4.dp)
             )
 
-            // Password TextField
             TextField(
                 value = password,
                 onValueChange = { password = it },
@@ -96,9 +94,8 @@ fun InstagramLoginScreen() {
                 shape = RoundedCornerShape(4.dp)
             )
 
-            // Login Button
             Button(
-                onClick = { /* TODO */ },
+                onClick = {},
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(45.dp),
