@@ -94,8 +94,9 @@ fun InstagramLoginScreen() {
                 shape = RoundedCornerShape(4.dp)
             )
 
+            // Login Button
             Button(
-                onClick = {},
+                onClick = { /* TODO */ },
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(45.dp),
